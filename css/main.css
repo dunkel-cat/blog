@@ -28,10 +28,10 @@ header{
 	color: #F7BA6A;
 }
 .bars {
-	font-size: 3em;
+	font-size: 30px;
 	display: none;
 	position: absolute;
-	top: 50%;
+	top: 20px;
 	right: 2%;
 }
 
@@ -159,8 +159,21 @@ p{
 .banner, .black-box1{
 	width: 100%;
 }
+
 .titulo{
 	padding-bottom: 10%;
 	font-family: 'Courgette';
-	font-size: 5em;
+	font-size: 4em;
+}
+.menu{
+	display: none;
+}
+.bars{
+	display: inline;
+}
+.size{
+	min-width: 100%;
+}
+.box-black2, .search, .floral-text2, .title-me, .box-black3, .me{
+	display: none;
 }
