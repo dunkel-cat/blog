@@ -1,0 +1,166 @@
+/* Inserta tu codigo aqui */
+*{
+	box-sizing: border-box;
+}
+body {
+	background-color: #2D2735;
+	color: white;
+	font-family: 'Open Sans'
+}
+
+header{
+	background-color: #1c1821;
+}
+.size{
+   width: 80%;
+}
+
+.menu {
+	text-align: right;
+	padding-top: 50px;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+	padding: 2%;
+}
+#menu:hover {
+	color: #F7BA6A;
+}
+.bars {
+	font-size: 3em;
+	display: none;
+	position: absolute;
+	top: 50%;
+	right: 2%;
+}
+
+/*---------------------------------------------------Banner--------------------------------------------------------------*/
+.banner{
+	background: url(../image/header-image.jpg);
+	background-size: cover;
+	height: 450px;
+	margin-top: 30px;
+	padding-top: 120px;
+	margin-bottom: 40px
+}
+.black-box{
+	background-color: #1c1821;
+	margin-left: 101px;
+    margin-right: 101px;
+    padding-top: 26px;
+    padding-bottom: 46px;
+}
+ .menu2{
+	text-align:center;
+
+}
+#menu2, .titulo{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+.titulo{
+	color:#F7BA6A; /*naranja*/
+	font-size: 100px;
+}
+/*---------------------------------------------------Section 1--------------------------------------------------------------*/
+.black-box1{
+    background-color: #1c1821; /*negro*/
+}
+.flowers-1{
+	margin-right:15px;
+}
+.floral-text{
+    text-align: center;
+    color: #F7BA6A;
+    margin-top: -4px;
+}
+p{
+	 text-align: center;
+}
+/*---------------------------------------------------Section 2 col7--------------------------------------------------------------*/
+.box-text{
+	
+	background-color: #1c1821;
+	margin-top: -5px;
+}
+.floral-text1{
+    text-align: center;
+    color: #F7BA6A;
+    padding: 3%;
+}
+.img-4{
+	margin-top: 52px;
+	margin-right:15px
+}
+.parrafo-floral{
+	text-align: left;
+	padding: 3%;
+}
+.video {
+	width: 100%;
+}
+/*---------------------------------------------------Section 2 col5--------------------------------------------------------------*/
+.box-black2{
+	background-color: #1c1821;
+	border-radius: 6px;
+	border:1px solid #1c1821;
+	padding: 40px 20px;
+	margin-top: 52px;
+
+}
+.search{
+    width: 100%;
+	padding: 15px 10px;
+	background-color: #2D2735;
+	border: 1px solid #2D2735;
+	border-radius: 5px;
+}
+.floral-text2{
+	text-align: center;
+    color: #F7BA6A;
+    padding: 3%;
+    background-color: #1c1821;
+}
+.title-me{
+	text-align: center;
+}
+
+.box-black3{
+	background-color: #1c1821;
+	padding-bottom: 21px;
+	margin-top:20px;
+	margin-top: -45px;
+}
+.box-fb, .box-insta, .box-twitter, .box-youtube{
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid #2D2735;
+    border-radius: 50%;
+	background-color: #2D2735;
+	padding: 10px;
+	margin-left: 15px;
+
+}
+.footer{
+	background-color: #1c1821;
+	padding:50px;
+	margin-top: 40px;
+}
+/*---------------------------------------------------Footer--------------------------------------------------------------*/
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+	.box-gray {
+		display: none;
+	}
+
+.banner, .black-box1{
+	width: 100%;
+}
+.titulo{
+	padding-bottom: 10%;
+	font-family: 'Courgette';
+	font-size: 5em;
+}
